@@ -1,44 +1,57 @@
 
 /* Main Header Section */
-body        {  margin: 0;               }
-.logo span  {  color: MediumAquamarine; }
-a           {  color: black;            }
-
-/* Column widths */
-.first.column  {  width: 640px;         }
-.second.column {  width: 320px;         }
-.third.column  {  width: 200px;         }
+body        {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+ }
 
 header {
   display: flex;
-  position: absolute;
-  align-items: center;
+  background-color: black;
   position: fixed;
+  height: 69px;
   width: 100%;
-  height 100px;
-  background-color: white;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  border-bottom: 1px solid black;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  flex-grow: 2;
-  padding-left: 30px;
+  border-bottom: 1px solid seashell;
 }
 
 .logo img {
-  width: 70px;
-  height: 60px;
-  margin-right: 12px;
+  height: 50px;
+  margin: 10px;
+  padding-right: 900px;
 }
 
-nav span {
+nav span a {
+  display: inline-flex;
+  color: seashell;
+  text-decoration: underline;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
   display: inline-block;
-  padding: 20px 20px;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.mission-bar h2 {
+  position: fixed;
+  display: flex;
+  background-color: black;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission h4 {
+  display: inline-flex;
 }
 
 /* Image Content Settings */
@@ -61,10 +74,6 @@ nav span {
   padding-left: 10px;
   font-size: 40px;
 }
-
-.earth.image-content  { background-image: url(../images/img-story-2.png); }
-.research.image-content  {  background-image: url(../images/img-story-3.png); }
-.cat.image-content  {  background-image: url(../images/img-story-1.png); }
 
 /* Main Story */
 
