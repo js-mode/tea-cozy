@@ -1,7 +1,6 @@
 
-/* Main Header Section */
 body        {
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   color: seashell;
   opacity: 0.9;
   font-size: 22px;
@@ -10,11 +9,14 @@ body        {
   margin: 0;
  }
 
+ /* Main Header Section */
 header {
   display: flex;
   background-color: black;
   position: fixed;
   height: 69px;
+  z-index: 1;
+  align-items: center;
   width: 100%;
   border-bottom: 1px solid seashell;
 }
@@ -34,118 +36,40 @@ nav span a {
   padding: 10px;
 }
 
+/* Mission & Image Section */
 .mission {
   height: 700px;
   width: 1200px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
   background-image: url(../images/img-mission-background.jpg);
+  background-repeat: no-repeat;
 }
 
-.mission-bar h2 {
-  position: fixed;
-  display: flex;
+.mission h2 {
+  display: inline-block;
   background-color: black;
   width: 1000px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
 }
 
-.mission h4 {
+.mission h2 h4 {
+  flex-wrap: wrap;
   display: inline-flex;
 }
 
-/* Image Content Settings */
-
 .image-content {
-  height: 300px;
-  margin-top: 10px;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
+  width: 300px;
+  height: 200px;
 }
 
-.main-story .image-content  {
-  background-image: url(../images/img-story-main.png);
-  width: 630px;
-  text-align: left;
-  justify-content: flex-start;
-  padding-left: 10px;
-  font-size: 40px;
-}
-
-/* Main Story */
-
-h2 {
-  margin: 0 auto;
-  font-family: Georgia;
-  font-size: 30px;
-}
-
-.content {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding-top: 116px;
-}
-
-.column, .story {
-  display: flex;
-  flex-direction: column;
-  margin-right: 32px;
-}
-
-.stories {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-}
-
-/* Third Column */
-
-.news-bites h3 {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  flex-direction: column;
-}
-
-.news-bites .bite a {
-  display: block;
-  margin: 0;
-  text-decoration: none;
-  padding: 15px;
-  border-bottom: 1px solid black;
-  background-color: WhiteSmoke;
-  font-family: Verdana;
-  font-size: 12px;
-  color: DimGray;
-}
-
-/* Footer Section */
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 120px;
-  background-color: MediumAquamarine;
-  font-family: Verdana;
-  font-size: 16px;
-}
-
-footer .title {
-  padding-right: 25px;
-  border-right: 2px solid white;
-  font-family: Georgia;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-}
-
-footer nav {
-  display: inline-block;
-  padding-left: 25px;
+.tea-section span {
+  flex-wrap: wrap;
+  display: inline-flex;
 }
