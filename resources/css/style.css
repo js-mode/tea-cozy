@@ -10,6 +10,12 @@ body {
   text-align: center;
 }
 
+a {
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
 /* Header Section */
 header {
   display: flex;
@@ -36,6 +42,7 @@ nav, a {
   text-align: right;
 }
 
+/* Main Section */
 .container {
   display: flex;
   align-content: center;
@@ -126,7 +133,6 @@ nav, a {
 }
 
 /* Contact Section */
-
 .contact {
   display: inline-block;
   margin-top: 3px;
@@ -134,10 +140,10 @@ nav, a {
 }
 
 /* Footer Section */
-
 .footer-info {
-  padding: 4px;
+  padding: 2px 12px;
   color: gray;
-  margin: 4px auto;
+  margin: 4px;
   text-align: left;
+  font-size: 18px;
 }
