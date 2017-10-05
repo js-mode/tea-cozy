@@ -87,12 +87,6 @@ nav, a {
   flex-wrap: wrap;
 }
 
-.products {
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-}
-
 .products img {
   width: 300px;
   height: 200px;
@@ -102,14 +96,14 @@ nav, a {
 }
 
 /* Locations Section */
-.locations {
+#locations {
   text-align: center;
   background: url(../images/img-locations-background.jpg) no-repeat center;
   min-height: 400px;
   border-radius: 3px;
 }
 
-.locations h2 {
+#locations h2 {
   padding-bottom: 15px;
   text-shadow: 1px;
 }
